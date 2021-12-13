@@ -1,0 +1,37 @@
+.gameboard {
+  width: 768px;
+  height: 768px;
+  border: 2px solid black;
+  
+}
+  
+  div {
+    display: block;
+  
+}
+
+.black {
+  background-color: black;
+  display: table-cell;
+  box-sizing: border-box;
+  float: left;
+  width: 96px;
+  height: 96px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.white {
+  background-color: white;
+  display: table-cell;
+  box-sizing: border-box;
+  float: left;
+  width: 96px;
+  height: 96px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.onOffClass {
+  border: 2px solid red;
+}
