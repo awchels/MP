@@ -23,6 +23,13 @@ window.onload = function() {
       if (selfimg == null) {
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#toprow1").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#thirdrow2") {
+          inbetweenImg = document.querySelector("#secondrow2 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow2").innerHTML = "";
+        }
+        
         clickMode = 1;
       }
     }
@@ -51,6 +58,19 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#toprow2").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#thirdrow1") {
+          inbetweenImg = document.querySelector("#secondrow2 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#thirdrow3") {
+          inbetweenImg = document.querySelector("#secondrow3 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow3").innerHTML = "";
+        }
+
+        
         clickMode = 1;
       }
     }
@@ -76,6 +96,19 @@ window.onload = function() {
       if (selfimg == null) {
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#toprow3").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#thirdrow4") {
+          inbetweenImg = document.querySelector("#secondrow4 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow4").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#thirdrow2") {
+          inbetweenImg = document.querySelector("#secondrow3 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow3").innerHTML = "";
+        }
+
+        
         clickMode = 1;
       }
     }
@@ -103,6 +136,14 @@ window.onload = function() {
       if (selfimg == null) {
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#toprow4").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#thirdrow3") {
+          inbetweenImg = document.querySelector("#secondrow4 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow4").innerHTML = "";
+        }
+
+        
         clickMode = 1;
       }
     }
@@ -130,6 +171,14 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#secondrow1").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#fourthrow1") {
+          inbetweenImg = document.querySelector("#thirdrow1 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow1").innerHTML = "";
+        }
+
+        
         clickMode = 1;
       }
     }
@@ -158,6 +207,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#secondrow2").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#fourthrow1") {
+          inbetweenImg = document.querySelector("#thirdrow1 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow1").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fourthrow3") {
+          inbetweenImg = document.querySelector("#thirdrow2 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow2").innerHTML = "";
+        }
+
         clickMode = 1;
       }
     }
@@ -184,6 +245,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#secondrow3").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#fourthrow2") {
+          inbetweenImg = document.querySelector("#thirdrow2 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fourthrow4") {
+          inbetweenImg = document.querySelector("#thirdrow3 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow3").innerHTML = "";
+        }
+
         clickMode = 1;
       }
     }
@@ -211,6 +284,13 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#secondrow4").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#fourthrow3") {
+          inbetweenImg = document.querySelector("#thirdrow3 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow3").innerHTML = "";
+        }
+
         clickMode = 1;
       }
     }
@@ -237,6 +317,18 @@ window.onload = function() {
       if (selfimg == null) {
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#thirdrow1").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#toprow2") {
+          inbetweenImg = document.querySelector("#secondrow2 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fifthrow2") {
+          inbetweenImg = document.querySelector("#fourthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow2").innerHTML = "";
+        }
+
         clickMode = 1;
       }
     }
@@ -264,6 +356,29 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#thirdrow2").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#toprow1") {
+          inbetweenImg = document.querySelector("#secondrow2 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#toprow3") {
+          inbetweenImg = document.querySelector("#secondrow3 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow3").innerHTML = "";
+        }
+           // check if the firstClick is third row #1
+        if (firstClick == "#fifthrow1") {
+          inbetweenImg = document.querySelector("#fourthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fifthrow3") {
+          inbetweenImg = document.querySelector("#fourthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow3").innerHTML = "";
+        }
+
+
         clickMode = 1;
       }
     }
@@ -290,6 +405,28 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#thirdrow3").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#toprow2") {
+          inbetweenImg = document.querySelector("#secondrow3 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow3").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#toprow4") {
+          inbetweenImg = document.querySelector("#secondrow4 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow4").innerHTML = "";
+        }
+   // check if the firstClick is third row #1
+        if (firstClick == "#fifthrow4") {
+          inbetweenImg = document.querySelector("#fourthrow4 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow4").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fifthrow2") {
+          inbetweenImg = document.querySelector("#fourthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow3").innerHTML = "";
+        }
+
         clickMode = 1;
       }
     }
@@ -315,6 +452,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#thirdrow4").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#toprow3") {
+          inbetweenImg = document.querySelector("#secondrow4 img");
+          if (inbetweenImg != null) document.querySelector("#secondrow4").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fifthrow3") {
+          inbetweenImg = document.querySelector("#fourthrow4 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow4").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -344,6 +493,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#fourthrow1").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#secondrow2") {
+          inbetweenImg = document.querySelector("#thirdrow1 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow1").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#sixthrow2") {
+          inbetweenImg = document.querySelector("#fifthrow1 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow1").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -371,6 +532,28 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#fourthrow2").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#secondrow1") {
+          inbetweenImg = document.querySelector("#thirdrow1 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow1").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#secondrow3") {
+          inbetweenImg = document.querySelector("#thirdrow2 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow2").innerHTML = "";
+        }
+   // check if the firstClick is third row #1
+        if (firstClick == "#sixthrow1") {
+          inbetweenImg = document.querySelector("#fifthrow1 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow1").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#sixthrow3") {
+          inbetweenImg = document.querySelector("#fifthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow2").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -397,6 +580,28 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#fourthrow3").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#secondrow2") {
+          inbetweenImg = document.querySelector("#thirdrow2 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#secondrow4") {
+          inbetweenImg = document.querySelector("#thirdrow3 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow3").innerHTML = "";
+        }
+   // check if the firstClick is third row #1
+        if (firstClick == "#sixthrow2") {
+          inbetweenImg = document.querySelector("#fifthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#sixthrow4") {
+          inbetweenImg = document.querySelector("#fifthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow3").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -423,6 +628,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#fourthrow4").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#secondrow3") {
+          inbetweenImg = document.querySelector("#thirdrow3 img");
+          if (inbetweenImg != null) document.querySelector("#thirdrow3").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#sixthrow3") {
+          inbetweenImg = document.querySelector("#fifthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow3").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -450,6 +667,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#fifthrow1").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#thirdrow2") {
+          inbetweenImg = document.querySelector("#fourthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#seventhrow2") {
+          inbetweenImg = document.querySelector("#sixthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow2").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -481,11 +710,22 @@ window.onload = function() {
           inbetweenImg = document.querySelector("#fourthrow2 img");
           if (inbetweenImg != null) document.querySelector("#fourthrow2").innerHTML = "";
         }
-
+        // check if the firstClick is third row #3
         if (firstClick == "#thirdrow3") {
           inbetweenImg = document.querySelector("#fourthrow3 img");
           if (inbetweenImg != null) document.querySelector("#fourthrow3").innerHTML = "";
         }
+           // check if the firstClick is third row #1
+        if (firstClick == "#seventhrow1") {
+          inbetweenImg = document.querySelector("#sixthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#seventhrow3") {
+          inbetweenImg = document.querySelector("#sixthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow3").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -513,6 +753,28 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#fifthrow3").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#thirdrow2") {
+          inbetweenImg = document.querySelector("#fourthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow3").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#thirdrow4") {
+          inbetweenImg = document.querySelector("#fourthrow4 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow4").innerHTML = "";
+        }
+   // check if the firstClick is third row #1
+        if (firstClick == "#seventhrow4") {
+          inbetweenImg = document.querySelector("#sixthrow4 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow4").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#seventhrow2") {
+          inbetweenImg = document.querySelector("#sixthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow3").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -539,6 +801,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#fifthrow4").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#thirdrow3") {
+          inbetweenImg = document.querySelector("#fourthrow4 img");
+          if (inbetweenImg != null) document.querySelector("#fourthrow4").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#seventhrow3") {
+          inbetweenImg = document.querySelector("#sixthrow4 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow4").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -565,6 +839,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#sixthrow1").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#fourthrow2") {
+          inbetweenImg = document.querySelector("#fifthrow1 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow1").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#eigthrow2") {
+          inbetweenImg = document.querySelector("#seventhrow1 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow1").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -591,6 +877,26 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#sixthrow2").appendChild(previousSquare);
+        
+            // check if the firstClick is third row #1
+        if (firstClick == "#fourthrow1") {
+          inbetweenImg = document.querySelector("#fifthrow1 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow1").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fourthrow3") {
+          inbetweenImg = document.querySelector("#fifthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow2").innerHTML = "";
+        }    // check if the firstClick is third row #1
+        if (firstClick == "#eighthrow1") {
+          inbetweenImg = document.querySelector("#seventhrow1 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow1").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#eigthrow3") {
+          inbetweenImg = document.querySelector("#seventhrow2 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow2").innerHTML = "";
+        }
 
         clickMode = 1;
       }
@@ -617,6 +923,26 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#sixthrow3").appendChild(previousSquare);
+        
+             // check if the firstClick is third row #1
+        if (firstClick == "#fourthrow2") {
+          inbetweenImg = document.querySelector("#fifthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fourthrow4") {
+          inbetweenImg = document.querySelector("#fifthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow3").innerHTML = "";
+        }    // check if the firstClick is third row #1
+        if (firstClick == "#eighthrow2") {
+          inbetweenImg = document.querySelector("#seventhrow2 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#eigthrow4") {
+          inbetweenImg = document.querySelector("#seventhrow3 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow3").innerHTML = "";
+        }
 
         clickMode = 1;
       }
@@ -643,6 +969,17 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#sixthrow4").appendChild(previousSquare);
+        
+        // check if the firstClick is third row #1
+        if (firstClick == "#fourthrow3") {
+          inbetweenImg = document.querySelector("#fifthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#fifthrow3").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#eigthrow3") {
+          inbetweenImg = document.querySelector("#seventhrow3 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow3").innerHTML = "";
+        } 
 
         clickMode = 1;
       }
@@ -669,6 +1006,12 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#seventhrow1").appendChild(previousSquare);
+        
+        // check if the firstClick is third row #1
+        if (firstClick == "#fifthrow2") {
+          inbetweenImg = document.querySelector("#sixthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow2").innerHTML = "";
+        }
 
         clickMode = 1;
       }
@@ -695,6 +1038,17 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#seventhrow2").appendChild(previousSquare);
+        
+        // check if the firstClick is third row #1
+        if (firstClick == "#fifthrow1") {
+          inbetweenImg = document.querySelector("#sixthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fifthrow3") {
+          inbetweenImg = document.querySelector("#sixthrow2 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow2").innerHTML = "";
+        } 
 
         clickMode = 1;
       }
@@ -721,6 +1075,17 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#seventhrow3").appendChild(previousSquare);
+        
+        // check if the firstClick is third row #1
+        if (firstClick == "#fifthrow2") {
+          inbetweenImg = document.querySelector("#sixthrow3 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow3").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#fifthrow4") {
+          inbetweenImg = document.querySelector("#sixthrow4 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow4").innerHTML = "";
+        } 
 
         clickMode = 1;
       }
@@ -747,6 +1112,12 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#seventhrow4").appendChild(previousSquare);
+        
+        // check if the firstClick is third row #1
+        if (firstClick == "#fifthrow3") {
+          inbetweenImg = document.querySelector("#sixthrow4 img");
+          if (inbetweenImg != null) document.querySelector("#sixthrow4").innerHTML = "";
+        }
 
         clickMode = 1;
       }
@@ -773,6 +1144,12 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#eighthrow1").appendChild(previousSquare);
+        
+         // check if the firstClick is third row #1
+        if (firstClick == "#sixthrow2") {
+          inbetweenImg = document.querySelector("#seventhrow1 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow1").innerHTML = "";
+        }
 
         clickMode = 1;
       }
@@ -799,6 +1176,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#eighthrow2").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#sixthrow1") {
+          inbetweenImg = document.querySelector("#seventhrow1 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow1").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#sixthrow3") {
+          inbetweenImg = document.querySelector("#seventhrow2 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow2").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -825,6 +1214,18 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#eighthrow3").appendChild(previousSquare);
+        
+           // check if the firstClick is third row #1
+        if (firstClick == "#sixthrow2") {
+          inbetweenImg = document.querySelector("#sevethrow2 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow2").innerHTML = "";
+        }
+        // check if the firstClick is third row #3
+        if (firstClick == "#sixthrow4") {
+          inbetweenImg = document.querySelector("#seventhrow3 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow3").innerHTML = "";
+        }
+
 
         clickMode = 1;
       }
@@ -851,6 +1252,12 @@ window.onload = function() {
 
         previousSquare = document.querySelector(firstClick + " img");
         document.querySelector("#eighthrow4").appendChild(previousSquare);
+        
+         // check if the firstClick is third row #1
+        if (firstClick == "#sixthrow3") {
+          inbetweenImg = document.querySelector("#sevethrow3 img");
+          if (inbetweenImg != null) document.querySelector("#seventhrow3").innerHTML = "";
+        }
 
         clickMode = 1;
       }
